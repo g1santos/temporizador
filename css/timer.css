@@ -1,0 +1,43 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+
+h1{
+    font-size: 4em;
+}
+
+.subtitle, .final {
+    font-size: 3em;
+}
+
+
+.timer .digit {
+    background: #333;
+    color: #FFF;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 3em;
+}
+
+.timer .separator {
+    color: #000;
+    margin: 5px;
+    font-size: 4em;
+}
+
+.timer .message {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
