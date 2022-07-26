@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="css/timer.css">
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <h1 class="title">Temporizador</h1>
+        <h1 class="subtitle">Faltam</h1>
+        <div></div>
+        <script src="js/timer.js"></script>
+        <h1 class="final">Para Acabar o dia!</h1>
+    <script>
+        $('.title').hide().fadeIn(2000)
+        $('.subtitle').hide().fadeIn(3000)
+        $('div').timer().hide().fadeIn(4000)
+        $('.final').hide().fadeIn(5000)
+    </script>
+</body>
+</html>
